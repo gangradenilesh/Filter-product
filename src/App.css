@@ -1,0 +1,83 @@
+.container {
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+}
+.main-title {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 30px;
+}
+.filterTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.filterTab button {
+  border: 1px solid #000;
+  background: transparent;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  text-transform: capitalize;
+}
+.filterTab button:hover, .activerfilter {
+  color: #fff;
+  background: #000 !important;
+}
+.filterProductContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.productDetails:hover {
+  transform: scale(1.05);
+}
+.productDetails {
+  width: 23%;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.productDetails img {
+  width: 100%;
+}
+.productContent {
+  padding: 10px;
+}
+.productContent h2 {
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.productContent h3, .productContent p {
+  font-size: 14px;
+}
+.productContent p {
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: break-spaces;
+  height: 40px;
+}
+.productDetails img {
+  width: 100%;
+  height: 15rem;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+  object-position: unset;
+}
